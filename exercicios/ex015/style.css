@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Valentine Moment';
+    src: url('fonts/Valentine Moment.ttf') format('truetype');
+}
+
+
+
+
+body {
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+h1 {
+    color: darkblue;
+    background-color: aqua;
+    font-family: 'Valentine Moment';
+    font-size: 7em;
+    font-weight: normal;
+}
+h2 {
+    color: darkmagenta;
+}
+p {
+    text-align: justify;
+}

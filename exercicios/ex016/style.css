@@ -1,0 +1,39 @@
+@charset "UTF-8"
+* {
+   font-family: sans-serif; 
+   height: 100%;
+}
+@font-face {
+    font-family: 'Valentine Moment';
+    src: url('fonts/Valentine Moment.ttf') format('truetype');
+    font-weight: normal;
+    font-size: normal;
+}
+body {
+    background-image: linear-gradient(to right, #ff00008f, #ff48009f);
+}
+
+main {
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px #4a5721;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+
+h1{
+    font-family: 'Valentine Moment';
+    font-size: 3em;
+    color: #a80d08;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgb(238, 234, 234);
+}
+h2{
+    font-family: 'Valentine Moment';
+    font-size: normal;
+    color: #a80d08;
+}
+p {
+    text-align: justify;
+}

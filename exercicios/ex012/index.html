@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos em HTML5</title>
+</head>
+<body>
+    <h1>inserindo videos em hospedados localmente</h1>
+    <p>este video esta hospedado em meu proprio servidor</p>
+
+    <video src="midia/meu-video.m4v" width="560" controls autoplay muted loop ></video> <!--esse é o jeito mais facil de colocar um video em apenas um formato-->
+
+    <video width="560" poster="imagens/limoes-capa.png" controls> <!--o WIDTH serve pra configurar o tamanho do player, o CONTROL é pra aparecer o player, o POSTER serve pra colocar tumbnail no video-->
+        <source src="midia/meu-video.mp4" type="video/mp4">
+        <source src="midia/meu-video.m4v" type="video/m4v">
+        <source src="midia/meu-video.webm" type="video/webm">
+        <source src="midia/meu-video.ogv" type="video/ogv">
+        <p>seu navegador não tem compatibilidade com reprodução de videos</p>
+    </video><!--esse é o jeito mais facil de colocar varios formatos de video, todos dentro da tag video-->
+    <h1>inserindo videos do youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/TCeyIwFGkYo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+</body>
+</html>
