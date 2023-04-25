@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pi-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .pri-div {
+            text-align: right;
+        }
+
+        .seg-div {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <div class="pri-div">
+        <h1>Meu primeiro formulário</h1>
+        <form action="cadastro.php" autocomplete="off">
+            <p><label for="inome">Nome:</label>
+                <input type="text" name="nome" id="inome"></p>
+            <p><label for="isobrenome">Sobrenome:</label>
+                <input type="text" name="sobrenome" id="isobrenome"></p>
+            <p><input type="submit" value="Enviar"></p>
+        </form>
+    </div>
+    <div class="seg-div">
+        <h1>Meu Formulario pessoal</h1>
+        <form action="cadastro.php" method="post">
+            <p><label for="iEmail">Email:</label>
+                <input type="text" name="Email" id="iEmail"></p>
+            <p><label for="iCPF">CPF:</label>
+                <input type="text" name="CPF" id="iCPF"></p>
+            <p><input type="submit" value="Cadastrar"></p>
+        </form>
+    </div>
+</body>
+</html>
